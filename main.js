@@ -76,7 +76,7 @@ linkFeatured.forEach(l => l.addEventListener('click', activeFeatured))
 function scrollUp() {
   const scrollUp = document.getElementById('scroll-up')
   //after scroll exceeds 350 vh, show-scroll class is added to a tag
-  this.scrollY >= 350 ? scrollUp.classList.add('show-scroll') : scrollUp.remove.classList('show-scroll')
+  this.scrollY >= 350 ? scrollUp.classList.add('show-scroll') : scrollUp.classList.remove('show-scroll')
 } 
 window.addEventListener('scroll', scrollUp)
 
