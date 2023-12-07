@@ -124,11 +124,3 @@ sr.reveal('.heroes__data, .play__img', {origin: 'right'})
 sr.reveal('.features__card, .jugg', {interval: 200})
 
 sr.reveal('.roles__card, .logos__content, .footer__content', {interval: 100})
-
-// DARK MODE 
-const themeToggler = document.querySelector('.themeToggler')
-
-themeToggler.addEventListener('change', () => {
-  document.body.classList.toggle('dark-mode-colors')
-  themeToggler.querySelector('span').classList.toggle('active')
-})
